@@ -137,8 +137,8 @@ export const getCommonConfig = () => {
             options: {
               plugins: [
                 // "istanbul",
-                [require.resolve('@babel/plugin-proposal-decorators'), { legacy: true }],
-                [require.resolve('@babel/plugin-proposal-class-properties'), { loose: true }],
+                [require.resolve('@babel/plugin-proposal-decorators'), { version: 'legacy' }],
+                [require.resolve('@babel/plugin-proposal-class-properties')],
               ],
               presets: [
                 babelPresetEnvConfig,
@@ -251,7 +251,7 @@ export const getSimpleConfig = () => ({
           loader: require.resolve('babel-loader'),
           options: {
             plugins: [
-              [require.resolve('@babel/plugin-proposal-class-properties'), { loose: true }],
+              [require.resolve('@babel/plugin-proposal-class-properties')],
             ],
             presets: [
               babelPresetEnvConfig,
