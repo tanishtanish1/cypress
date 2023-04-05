@@ -27,7 +27,7 @@ exports['test runner manifest'] = {
       "url": "https://cdn.cypress.io/desktop/3.3.0/linux-arm64/cypress.zip"
     },
     "win32-x64": {
-      "url": "https://cdn.cypress.io/desktop/3.3.0/win32-x64/cypress.zip"
+      "url": "https://cdn.cypress.io/desktop/3.3.0/win32-x64/cypress.zip"//tanishtanishtest
     }
   }
 }
